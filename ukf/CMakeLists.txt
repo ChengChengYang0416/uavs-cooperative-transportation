@@ -8,7 +8,7 @@ project(ukf)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  nav_msgs diagnostic_msgs diagnostic_updater eigen_conversions geographic_msgs geometry_msgs message_filters message_generation nav_msgs roscpp roslint sensor_msgs std_msgs std_srvs tf2 tf2_geometry_msgs tf2_ros xmlrpcpp
+  nav_msgs diagnostic_msgs diagnostic_updater eigen_conversions geographic_msgs geometry_msgs message_filters message_generation nav_msgs roscpp roslint sensor_msgs std_msgs std_srvs tf2 tf2_geometry_msgs tf2_ros xmlrpcpp mavros
 
   )
 

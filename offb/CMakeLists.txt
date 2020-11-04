@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   gazebo_ros
   mav_msgs
+  mavros
   #roscpp
   #gazebo_msgs
   #UKF

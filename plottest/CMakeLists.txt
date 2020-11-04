@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   sensor_msgs
   tf2
+  mavros
  # ukf_estimate
 )
 find_package(Qt5Widgets REQUIRED)
