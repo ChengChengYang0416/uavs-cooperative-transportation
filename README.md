@@ -39,8 +39,8 @@ catkin_make
 
 ## Trajecotry tracking
 ```
-roslaunch rotors_gazebo firefly_swarm_hovering_example.launch 
-roslaunch rotors_gazebo controller.launch 
+roslaunch rotors_gazebo firefly_with_payload.launch
+roslaunch rotors_gazebo controller_coop_firefly.launch
 roslaunch ukf leader_follower_force_estimate.launch
 rosparam set /force_control true
 rosparam set /start true
